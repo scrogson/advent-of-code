@@ -1,10 +1,8 @@
-# Advent of Code 2019
-
-Doing this in Rust...
+# Advent of Code
 
 ## How to run
 
 ```
-λ cd day1
+λ cd <year>/<day>
 λ cargo run < input/input.txt
 ```
