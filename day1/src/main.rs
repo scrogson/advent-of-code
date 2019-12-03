@@ -71,5 +71,6 @@ fn test_fuel_requirement() {
 
 #[test]
 fn test_part2() {
+    assert_eq!(part2("1969").unwrap(), 966);
     assert_eq!(part2("100756").unwrap(), 50346);
 }
