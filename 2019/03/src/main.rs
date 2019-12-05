@@ -17,8 +17,10 @@ fn main() -> Result<()> {
     intersections.sort_by(|a, b| a.distance().cmp(&b.distance()));
 
     println!("Part 1: {:?}", intersections[0].distance());
-    println!("Part 2: {:?}", wire_a.fewest_steps(&wire_b));
+    println!("Completed in {}ms", now.elapsed().as_millis());
 
+    let now = std::time::Instant::now();
+    println!("Part 2: {:?}", wire_a.fewest_steps(&wire_b));
     println!("Completed in {}ms", now.elapsed().as_millis());
 
     Ok(())
